@@ -57,6 +57,8 @@ Ensure mysqld_exporter is UP
 
 Grafana: Should show MySQL metrics
 
+Grafana Dashboard:
+<img width="1163" height="593" alt="image" src="https://github.com/user-attachments/assets/70e4e856-7636-438c-90f9-3622c562d88c" />
 
 
  Troubleshooting
