@@ -28,10 +28,11 @@ Run this in your MySQL/MariaDB:
 ```sql
 CREATE USER 'exporter'@'%' IDENTIFIED BY 'password';
 GRANT PROCESS, REPLICATION CLIENT, SELECT ON *.* TO 'exporter'@'%';
-FLUSH PRIVILEGES;
+FLUSH PRIVILEGES
+```
 
 
-docker compose up -d
+2. docker compose up -d
 
 Access the Tools
 Prometheus: http://localhost:9090
